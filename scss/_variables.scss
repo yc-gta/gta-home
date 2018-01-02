@@ -18,5 +18,24 @@ $brand-facebook:	#3b5998;
 $brand-google-plus:	#dd4b39;
 
 $theme-four:    #fdcc52;
+$turquoise: #1abc9c;
+$blue: #3498db;
 
 // xs, sm, md, lg, xl => 12등분
+
+
+//img.html scss
+
+.button2 {
+
+        border-color: $blue;
+        color: #fff;
+        box-shadow: 0 0 40px 40px $blue inset, 0 0 0 0 $blue;
+        transition: all 150ms ease-in-out;
+        
+        &:hover {
+          box-shadow: 0 0 10px 0 $blue inset, 0 0 10px 4px $blue;
+        }
+      
+  }
+  
