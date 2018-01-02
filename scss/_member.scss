@@ -1,5 +1,5 @@
 // Styling for the features section
-section.features {
+section.member {
     .section-heading {
         margin-bottom: 100px;
         h2 {
@@ -8,6 +8,17 @@ section.features {
         p {
             margin-bottom: 0;
         }
+    }
+    .card {
+        &:hover {
+            box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+        }
+    }
+    .avatar {
+        border-radius: 100%;
+        overflow: hidden;
+        width: 128px;
+        height: 128px;
     }
     .device-container,
     .feature-item {

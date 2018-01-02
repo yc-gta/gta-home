@@ -35,7 +35,7 @@ h4,
 h5,
 h6 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 600;
   letter-spacing: 1px; }
 
 p {
@@ -55,12 +55,12 @@ section {
   -moz-transition: all .35s;
   transition: all .35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-weight: 600;
   letter-spacing: 1px; }
   #mainNav .navbar-brand {
     color: #fdcc52;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
+    font-weight: 600;
     letter-spacing: 1px; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
       color: #fcbd20; }
@@ -112,87 +112,98 @@ section {
           #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
             color: #fdcc52; } }
 
-header.masthead {
+header.header {
   position: relative;
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430); }
-  header.masthead .header-content {
+  color: black;
+  background: url("../img/header/main-y.png") left center no-repeat;
+  background-size: cover; }
+  header.header .header-content {
     max-width: 500px;
     margin-bottom: 100px;
     text-align: center; }
-    header.masthead .header-content h1 {
+    header.header .header-content h1 {
       font-size: 30px; }
-  header.masthead .device-container {
-    max-width: 325px;
-    margin-right: auto;
-    margin-left: auto; }
-    header.masthead .device-container .screen img {
-      border-radius: 3px; }
+    header.header .header-content h4 {
+      color: #555555; }
+    header.header .header-content .btn {
+      border-color: red;
+      color: red; }
   @media (min-width: 992px) {
-    header.masthead {
+    header.header {
+      background: url("../img/header/main-x.png") center top no-repeat;
+      background-size: cover;
       height: 100vh;
       min-height: 775px;
       padding-top: 0;
       padding-bottom: 0; }
-      header.masthead .header-content {
+      header.header .header-content {
         margin-bottom: 0;
         text-align: left; }
-        header.masthead .header-content h1 {
-          font-size: 50px; }
-      header.masthead .device-container {
-        max-width: 325px; } }
+        header.header .header-content h1 {
+          font-size: 50px; } }
 
-section.download {
+section.about {
   position: relative;
   padding: 150px 0; }
-  section.download h2 {
+  section.about h2 {
     font-size: 50px;
     margin-top: 0; }
-  section.download .badges .badge-link {
+  section.about .title1 {
+    color: white; }
+  section.about .title2 {
+    color: red; }
+  section.about .badges .badge-link {
     display: block;
     margin-bottom: 25px; }
-    section.download .badges .badge-link:last-child {
+    section.about .badges .badge-link:last-child {
       margin-bottom: 0; }
-    section.download .badges .badge-link img {
+    section.about .badges .badge-link img {
       height: 60px; }
     @media (min-width: 768px) {
-      section.download .badges .badge-link {
+      section.about .badges .badge-link {
         display: inline-block;
         margin-bottom: 0; } }
   @media (min-width: 768px) {
-    section.download h2 {
+    section.about h2 {
       font-size: 70px; } }
 
-section.features .section-heading {
+section.member .section-heading {
   margin-bottom: 100px; }
-  section.features .section-heading h2 {
+  section.member .section-heading h2 {
     margin-top: 0; }
-  section.features .section-heading p {
+  section.member .section-heading p {
     margin-bottom: 0; }
 
-section.features .device-container,
-section.features .feature-item {
+section.member .card:hover {
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2); }
+
+section.member .avatar {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 128px;
+  height: 128px; }
+
+section.member .device-container,
+section.member .feature-item {
   max-width: 325px;
   margin: 0 auto; }
 
-section.features .device-container {
+section.member .device-container {
   margin-bottom: 100px; }
   @media (min-width: 992px) {
-    section.features .device-container {
+    section.member .device-container {
       margin-bottom: 0; } }
 
-section.features .feature-item {
+section.member .feature-item {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center; }
-  section.features .feature-item h3 {
+  section.member .feature-item h3 {
     font-size: 30px; }
-  section.features .feature-item i {
+  section.member .feature-item i {
     font-size: 80px;
     display: block;
     margin-bottom: 15px;
