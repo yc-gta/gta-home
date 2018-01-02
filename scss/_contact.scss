@@ -4,6 +4,7 @@ section.contact {
     h2 {
         margin-top: 0;
         margin-bottom: 25px;
+        color: #fff;
         i {
             color: $brand-google-plus;
         }
@@ -19,6 +20,7 @@ section.contact {
                 height: 80px;
                 color: white;
                 border-radius: 100%;
+                
             }
             &.social-twitter {
                 a {

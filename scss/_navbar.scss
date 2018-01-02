@@ -5,11 +5,11 @@
     @include transition-all;
     @include heading-font;
     .navbar-brand {
-        color: $theme-primary;
+        color: $theme-four;
         @include heading-font;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: darken($theme-four, 10%);
         }
     }
     .navbar-toggler {
@@ -23,7 +23,7 @@
                 font-size: 11px;
                 @include alt-font;
                 &.active {
-                    color: $theme-primary !important;
+                    color: $theme-four !important;
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;

@@ -2,11 +2,12 @@
     display: flex;   
     flex-flow: row wrap;
     justify-content: center;
+    color: black;
+ 
 }
 
 .abc {
     flex-grow: 0;
     flex-shrink: 1;
-    flex-basis: auto;
-    
+    flex-basis: auto;   
 }
