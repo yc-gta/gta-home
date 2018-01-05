@@ -52,7 +52,7 @@ p {
   margin-bottom: 20px; }
 
 section {
-  padding: 100px 0; }
+  padding: 50px 0; }
   section h2 {
     font-size: 50px; }
 
@@ -179,7 +179,7 @@ section.about {
       font-size: 70px; } }
 
 section.member .section-heading {
-  margin-bottom: 100px; }
+  margin-bottom: 50px; }
   section.member .section-heading h2 {
     margin-top: 0; }
   section.member .section-heading p {
@@ -216,7 +216,7 @@ section.photo {
         Media Queries
       ==================================== */ }
   section.photo .section-heading {
-    margin-bottom: 100px; }
+    margin-bottom: 50px; }
     section.photo .section-heading h2 {
       margin-top: 0; }
     section.photo .section-heading p {
@@ -364,7 +364,7 @@ section.photo {
       line-height: 1; } }
 
 section.schedule .section-heading {
-  margin-bottom: 100px; }
+  margin-bottom: 50px; }
   section.schedule .section-heading h2 {
     margin-top: 0; }
   section.schedule .section-heading p {
