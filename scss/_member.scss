@@ -8,9 +8,7 @@ section.member {
         p {
             margin-bottom: 0;
         }
-
     }
-
     .card {
         &:hover {
             box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
@@ -22,32 +20,10 @@ section.member {
         width: 128px;
         height: 128px;
     }
-    .device-container,
-    .feature-item {
-        max-width: 325px;
-        margin: 0 auto;
-    }
-    .device-container {
-        margin-bottom: 100px;
-        @media(min-width: 992px) {
-            margin-bottom: 0;
-        }
-    }
-    .feature-item {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        text-align: center;
-        h3 {
-            font-size: 30px;
-        }
-        i {
-            font-size: 80px;
-            display: block;
-            margin-bottom: 15px;
-            background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
-            background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-    }
+    .icon {
+        display: flex;   
+        flex-flow: row nowrap;
+        justify-content: center;
+        color: black;
+    }        
 }

@@ -39,4 +39,78 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  // member - home(6)
+  var memberInfo = [
+    { id: 'chojunho', name: '조준호', desc: '홍보담당', fbUrl: "https://www.naver.com" },
+    { id: 'kk', name: '김진욱', desc: '놀기담당', fbUrl: "https://www.google.com" },
+    { id: 'chojunho', name: '조준호', desc: '홍보담당', fbUrl: "https://www.naver.com" },
+    { id: 'kk', name: '김진욱', desc: '놀기담당', fbUrl: "https://www.google.com" },
+    { id: 'chojunho', name: '조준호', desc: '홍보담당', fbUrl: "https://www.naver.com" },
+    { id: 'kk', name: '김진욱', desc: '놀기담당', fbUrl: "https://www.google.com" },
+  ];
+  for (var i = 0; i < memberInfo.length; ++i) {
+    var member = memberInfo[i];
+    var memberHTML = $('\
+    <div class="col-sm-6 col-lg-4">\
+    <div class="card pt-3 mb-3">\
+      <div class="avatar mx-auto">\
+          <img class="avatar-img card-img-top" src="img/member/' + member.id + '.jpg">\
+      </div>\
+      <div class="card-body text-center">\
+        <h5 class="card-title">' + member.name + '</h5>\
+        <p class="card-text">' + member.desc + '</p>\
+      </div>\
+      <div class="icon">\
+          <ul class="list-inline list-social">\
+              <li class="list-inline-item social-facebook">\
+                <a href="' + member.fbUrl + '" target="_blank">\
+                  <i class="fa fa-facebook"></i>\
+                </a>\
+              </li>\
+          </ul>\
+        </div>\
+      </div>\
+    </div>\
+    ');
+    $('#members').append(memberHTML);
+  }
+
+  // member - page(20 +@)
+  var memberInfoAll = [
+    { id: 'chojunho', name: '조준호1', desc: '홍보담당', fbUrl: "https://www.naver.com" },
+    { id: 'kk', name: '김진욱', desc: '놀기담당', fbUrl: "https://www.google.com" },
+    { id: 'chojunho', name: '조준호', desc: '홍보담당', fbUrl: "https://www.naver.com" },
+    { id: 'kk', name: '김진욱', desc: '놀기담당', fbUrl: "https://www.google.com" },
+    { id: 'chojunho', name: '조준호', desc: '홍보담당', fbUrl: "https://www.naver.com" },
+    { id: 'kk', name: '김진욱', desc: '놀기담당', fbUrl: "https://www.google.com" },
+  ];
+  for (var i = 0; i < memberInfoAll.length; ++i) {
+    var member = memberInfoAll[i];
+    var memberHTML = $('\
+    <div class="col-sm-6 col-lg-4">\
+    <div class="card pt-3 mb-3">\
+      <div class="avatar mx-auto">\
+          <img class="avatar-img card-img-top" src="img/member/' + member.id + '.jpg">\
+      </div>\
+      <div class="card-body text-center">\
+        <h5 class="card-title">' + member.name + '</h5>\
+        <p class="card-text">' + member.desc + '</p>\
+      </div>\
+      <div class="icon">\
+          <ul class="list-inline list-social">\
+              <li class="list-inline-item social-facebook">\
+                <a href="' + member.fbUrl + '" target="_blank">\
+                  <i class="fa fa-facebook"></i>\
+                </a>\
+              </li>\
+          </ul>\
+        </div>\
+      </div>\
+    </div>\
+    ');
+    $('#membersAll').append(memberHTML);
+  }
+  
+
+
 })(jQuery); // End of use strict
