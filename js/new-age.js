@@ -41,12 +41,12 @@
 
   // member - home(6)
   var memberInfo = [
-    { id: 'chojunho', name: '조준호', desc: '홍보담당', fbUrl: "https://www.naver.com" },
-    { id: 'kk', name: '김진욱', desc: '놀기담당', fbUrl: "https://www.google.com" },
-    { id: 'chojunho', name: '조준호', desc: '홍보담당', fbUrl: "https://www.naver.com" },
-    { id: 'kk', name: '김진욱', desc: '놀기담당', fbUrl: "https://www.google.com" },
-    { id: 'chojunho', name: '조준호', desc: '홍보담당', fbUrl: "https://www.naver.com" },
-    { id: 'kk', name: '김진욱', desc: '놀기담당', fbUrl: "https://www.google.com" },
+    { id: '6', name: '이세현', desc: '선생님', fbUrl: "https://www.naver.com" },
+    { id: '3', name: '전다혜', desc: '위원장', fbUrl: "https://www.google.com" },
+    { id: '5', name: '이수빈', desc: '부위원장', fbUrl: "https://www.naver.com" },
+    { id: '9', name: '김진아', desc: '서기', fbUrl: "https://www.google.com" },
+    { id: '12', name: '신다혜', desc: '운영부장', fbUrl: "https://www.naver.com" },
+    { id: '19', name: '조준호', desc: '홍보부장', fbUrl: "https://www.google.com" },
   ];
   for (var i = 0; i < memberInfo.length; ++i) {
     var member = memberInfo[i];
@@ -77,12 +77,27 @@
 
   // member - page(20 +@)
   var memberInfoAll = [
-    { id: 'chojunho', name: '조준호1', desc: '홍보담당', fbUrl: "https://www.naver.com" },
-    { id: 'kk', name: '김진욱', desc: '놀기담당', fbUrl: "https://www.google.com" },
-    { id: 'chojunho', name: '조준호', desc: '홍보담당', fbUrl: "https://www.naver.com" },
-    { id: 'kk', name: '김진욱', desc: '놀기담당', fbUrl: "https://www.google.com" },
-    { id: 'chojunho', name: '조준호', desc: '홍보담당', fbUrl: "https://www.naver.com" },
-    { id: 'kk', name: '김진욱', desc: '놀기담당', fbUrl: "https://www.google.com" },
+    { id: '6', name: '이세현', desc: '선생님', fbUrl: "https://www.naver.com" },
+    { id: '3', name: '전다혜', desc: '위원장', fbUrl: "https://www.google.com" },
+    { id: '5', name: '이수빈', desc: '부위원장', fbUrl: "https://www.naver.com" },
+    { id: '9', name: '김진아', desc: '서기', fbUrl: "https://www.google.com" },
+    { id: '12', name: '신다혜', desc: '운영부장', fbUrl: "https://www.naver.com" },
+    { id: '19', name: '조준호', desc: '홍보부장', fbUrl: "https://www.google.com" },
+    { id: '4', name: '이태규', desc: '기획부장', fbUrl: "https://www.naver.com" },
+    { id: '1', name: '변혜란', desc: '운영부', fbUrl: "https://www.google.com" },
+    { id: '20', name: '소연', desc: '운영부', fbUrl: "https://www.naver.com" },
+    { id: '14', name: '김민철', desc: '운영부', fbUrl: "https://www.google.com" },
+    { id: '18', name: '김재민', desc: '운영부', fbUrl: "https://www.naver.com" },
+    { id: '17', name: '하건우', desc: '운영부', fbUrl: "https://www.google.com" },
+    { id: '11', name: '민준희', desc: '홍보부', fbUrl: "https://www.naver.com" },
+    { id: '15', name: '계동혁', desc: '홍보부', fbUrl: "https://www.google.com" },
+    { id: '2', name: '최서윤', desc: '홍보부', fbUrl: "https://www.naver.com" },
+    { id: '10', name: '조정호', desc: '홍보부', fbUrl: "https://www.google.com" },
+    { id: '16', name: '양유노', desc: '홍보부', fbUrl: "https://www.naver.com" },
+    { id: '13', name: '김하진', desc: '기획부', fbUrl: "https://www.google.com" },
+    { id: '8', name: '윤채영', desc: '기획부', fbUrl: "https://www.google.com" },
+    { id: '7', name: '이가윤', desc: '기획부', fbUrl: "https://www.google.com" },
+    { id: '21', name: '황병민', desc: '기획부', fbUrl: "https://www.google.com" },
   ];
   for (var i = 0; i < memberInfoAll.length; ++i) {
     var member = memberInfoAll[i];
