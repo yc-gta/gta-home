@@ -684,6 +684,15 @@ footer {
     border-color: #000000;
     background-color: #000000; }
 
+.btn-outline2 {
+  color: #ffffff;
+  border: 2px solid;
+  border-color: #ffffff; }
+  .btn-outline2:hover, .btn-outline2:focus, .btn-outline2:active, .btn-outline2.active {
+    color: white;
+    border-color: #000000;
+    background-color: #000000; }
+
 .btn {
   border-radius: 300px;
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -693,3 +702,28 @@ footer {
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px; }
+
+section.about {
+  position: relative;
+  padding: 150px 0; }
+  section.about h2 {
+    font-size: 50px;
+    margin-top: 0; }
+  section.about .title1 {
+    color: white; }
+  section.about .title2 {
+    color: white; }
+  section.about .badges .badge-link {
+    display: block;
+    margin-bottom: 25px; }
+    section.about .badges .badge-link:last-child {
+      margin-bottom: 0; }
+    section.about .badges .badge-link img {
+      height: 60px; }
+    @media (min-width: 768px) {
+      section.about .badges .badge-link {
+        display: inline-block;
+        margin-bottom: 0; } }
+  @media (min-width: 768px) {
+    section.about h2 {
+      font-size: 70px; } }
