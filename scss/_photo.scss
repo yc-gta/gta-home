@@ -3,7 +3,7 @@ section.photo {
     .section-heading {
         margin-bottom: 50px;
         h2 {
-            margin-top: 0;
+            margin-top: 12px;
         }
         p {
             margin-bottom: 0;
@@ -24,7 +24,6 @@ section.photo {
         text-transform:uppercase;
         font-weight: 800;
         font-size: 2em;
-        line-height: 1;
         margin: 0 0 1.5em;
       }
       .name span {
@@ -58,12 +57,10 @@ section.photo {
       h2 {
         text-transform:uppercase;
         font-size: 1.5em;
-        line-height: .4;
       }
       p {
         font-size: .9375em;
         margin: 0 0 1.5em;
-        line-height: 1.4;
       }
       
       .button {
@@ -82,7 +79,6 @@ section.photo {
       /* -- Row 2 Styles --------- */
       .photo {
         position: relative;
-        line-height: 0;
         overflow: hidden;
         margin-bottom: 2.5em;
       }
@@ -102,7 +98,11 @@ section.photo {
         background: rgba(0,0,0, .5);
       }
       .photo-overlay h2 {
-        margin-top: 0;
+        margin-bottom: 4px;
+      }
+
+      .photo-overlay a i {
+        color: #fff;
       }
       
       /* -- Row 3 Styles --------- */
@@ -189,9 +189,16 @@ section.photo {
         Media Queries
       ==================================== */
       @media (min-width: 0) and (max-width: 768px) {
-      .container {
-        padding: 0 1.225em 2.5em;
+        .container {
+          padding: 0 1.225em 2.5em;
+        }      
       }
+
+      @media (min-width:575px) and (max-width: 767px) {
+        .photo-overlay h2 {
+          font-size: 1.2em;
+          margin-bottom: 2px; 
+        }          
       }
       
       @media (min-width: 1024px) {
@@ -215,9 +222,6 @@ section.photo {
       .photo-container {
         margin-bottom: 4em;
         width: 30%;
-      }
-      h2 {
-        line-height: 1;
       }
       }
     
